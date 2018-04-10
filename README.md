@@ -2,7 +2,9 @@
 ## 任务    
 Kaggle比赛： https://www.kaggle.com/c/planet-understanding-the-amazon-from-space  
 图像多标签多分类问题，图像为亚马逊丛林高空俯视卫星图片，图像标签为图片中包含的气候、地貌（多云、河流、农田、矿井等17类），训练集4万，测试集6万。  
-知乎文章：   
+知乎文章：[Kaggle求生：亚马逊热带雨林篇](https://zhuanlan.zhihu.com/p/28084438)   
+
+__注__:这个目录只是我那部分的代码，也没有做整理，所以比较混乱
 
 ## 运行环境  
 * 包依赖：torch, torchvision, PIL, pandas, (hyperboard)  
