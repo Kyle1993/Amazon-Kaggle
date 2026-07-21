@@ -50,7 +50,7 @@ classes = ['agriculture', 'artisinal_mine', 'bare_ground', 'blooming', 'blow_dow
                'primary', 'road', 'selective_logging', 'slash_burn', 'water']
 
 
-print('Writting File...')
+print('Writing File...')
 with open('result_weight_bag5','w') as f:
     f.write('image_name,tags\n')
     for id in range(total_test.shape[0]):
@@ -60,4 +60,3 @@ with open('result_weight_bag5','w') as f:
                 s += classes[i]+' '
         s = names[id]+','+s+'\n'
         f.write(s)
-
